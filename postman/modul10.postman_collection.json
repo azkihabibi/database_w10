@@ -1,0 +1,69 @@
+{
+	"info": {
+		"_postman_id": "51741e37-cb29-40a7-b787-eeaed4e03c6a",
+		"name": "modul10",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16842909"
+	},
+	"item": [
+		{
+			"name": "liat semua data",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "liat data pake id",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "menambahkan data",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"hrcsr04\",\r\n    \"location\": \"jakarta\",\r\n    \"type\": \"hrcsr04\",\r\n    \"sensor_spesification\": \"jarak\",\r\n    \"gps_location_latitude\": \"-6.200000\",\r\n    \"gps_location_longitude\": \"106.816600\",\r\n    \"device_notification\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8008/device",
+					"host": [
+						"localhost"
+					],
+					"port": "8008",
+					"path": [
+						"device"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "edit data pake id",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "HAPUS DATA",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
