@@ -16,8 +16,8 @@ db.sequelize
 
 db.sequelize
     .sync({
-        force: false,
-        alter: true 
+        force: false, // To create table if exists
+        alter: true // To update the table if exists
     })
     .then(() => {
         console.log("Database tersinkronisasi.");
